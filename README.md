@@ -43,7 +43,7 @@ have the same id.
 ## Data flow in the application
 
 Firstly the user has to introduce a pokémon name in the provided input box.
-![](/images/PokeDEXInterface.png)
+<img src="/images/PokeDEXInterface.png" width=200px height=200px>
 If the introduced name does not exist a pop-up holding the message "This pokemon does not exist!!!" will appear.
 Otherwise, a request to the PokéAPI is made inside the **getPokeData** function. 
 To make GET request from this API we need an url. We will start from this one https://pokeapi.co/api/v2/pokemon/ and we will add the pokemon name recieved as input to it.
